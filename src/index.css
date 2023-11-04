@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'pixel';
+  src: url('../src/fonts/AGoblinAppears-o2aV.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'chicago';
+  src: url('../src/fonts/ChicagoFLF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pixel {
+  font-family: 'pixel', sans-serif; /* Assurez-vous que le nom de la police correspond à la police personnalisée que vous avez configurée */
+}
+
+.chicago {
+  font-family: 'chicago', sans-serif; /* Assurez-vous que le nom de la police correspond à la police personnalisée que vous avez configurée */
+}
+.custom-height {
+  height: calc(100vh - 3.2rem);
+}
+.custom-height2 {
+  height: calc(100vh - 22.4rem);
+}
+.custom-height3 {
+  height: calc(100vh - 10rem);
+}
+.custom-height4 {
+  height: calc(100vh - 24.7rem);
+}
