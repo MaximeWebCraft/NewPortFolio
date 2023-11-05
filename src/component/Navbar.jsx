@@ -23,7 +23,6 @@ const Navbar = () => {
                   ? 'border-b-[2px] chicago border-gray-950 pb-1 transition-all duration-3000 '
                   : 'text-gray-950 chicago'
               }
-              to={'/home/my-project'}
             >
               My Project
             </NavLink>
@@ -35,7 +34,6 @@ const Navbar = () => {
                   ? 'border-b-[2px] chicago border-gray-950 pb-1 transition-all duration-3000 '
                   : 'text-gray-950 chicago '
               }
-              to={'/'}
             >
               My profils
             </NavLink>
@@ -47,7 +45,6 @@ const Navbar = () => {
                   ? 'border-b-[2px] border-gray-950 pb-1 transition-all duration-3000 '
                   : 'text-gray-950 chicago'
               }
-              to={'/'}
             >
               Social
             </NavLink>
@@ -83,7 +80,6 @@ const Navbar = () => {
                     ? 'text-porange-600 transition-all duration-3000'
                     : 'text-black '
                 }
-                to={'/home/my-project'}
               >
                 My Project
               </NavLink>
@@ -96,7 +92,6 @@ const Navbar = () => {
                     ? 'text-porange-600 transition-all duration-3000'
                     : 'text-black '
                 }
-                to={'/'}
               >
                 My profils
               </NavLink>
@@ -109,7 +104,6 @@ const Navbar = () => {
                     ? 'text-porange-600 transition-all duration-3000'
                     : 'text-black '
                 }
-                to={'/'}
               >
                 Social link
               </NavLink>
