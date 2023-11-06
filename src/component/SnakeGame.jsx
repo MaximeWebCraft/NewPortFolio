@@ -162,7 +162,7 @@ const SnakeGame = ({ setIsSnakeVisible }) => {
   return (
     //
 
-    <div className="bg-gray-800 absolute   z-50  p-4 rounded-lg">
+    <div className="bg-gray-800 absolute max-w-5xl  z-50  p-4 rounded-lg">
       <div className="" onClick={() => setIsSnakeVisible(false)}>
         <img className="mt-1 h-8 m-1 bg-white" src={cross} alt="cross" />
       </div>

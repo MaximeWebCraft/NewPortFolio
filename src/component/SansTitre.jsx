@@ -22,7 +22,7 @@ const SansTitre = ({ setIsSansTitreVisible }) => {
     },
   };
   return (
-    <div className=" border-4  border-black bg-white h-4/6 absolute left-0 right-10 mx-auto  w-10/12 top-52">
+    <div className=" border-4 overflow-hidden  border-black bg-white h-4/6 absolute left-0 right-10 mx-auto  w-4/5 top-52">
       <div className=" flex h-10 border-b-2  border-black">
         <div className="w-9">
           <div className="w-full ">
@@ -50,7 +50,7 @@ const SansTitre = ({ setIsSansTitreVisible }) => {
         initial="hidden"
         animate={'visible'}
         variants={textAnimation}
-        className="mb-28"
+        className=" px-2 pt-2 pb-12 h-full overflow-y-scroll"
       >
         <div>
           <div className="p-6 overflow-hidden max-h-auto flex flex-wrap gap-7">

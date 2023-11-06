@@ -35,7 +35,7 @@ const Hdd = ({ setIsHddVisible }) => {
   };
   return (
     <div>
-      <div className=" border-4  border-black bg-white h-4/6 absolute left-0 right-0 mx-auto  w-10/12 top-40">
+      <div className=" border-4  border-black w-4/5 bg-white h-4/6 absolute left-0 right-0 mx-auto  max-w-5xl top-40">
         <div className=" flex h-10 border-b-2  border-black">
           <div className="w-9">
             <div className="w-full ">
