@@ -6,7 +6,7 @@ import cross from '../asset/svg/cross.svg';
 // eslint-disable-next-line react/prop-types
 const MyProject = ({ setIsMyProjectVisible }) => {
   return (
-    <div className=" border-4  border-black bg-white h-4/6 absolute left-0 right-0 mx-auto  w-10/12 top-40">
+    <div className=" border-4 overflow-hidden border-black bg-white h-4/6 absolute left-0 right-0 mx-auto  w-10/12 top-40">
       <div className=" flex h-10 border-b-2  border-black">
         <div className="w-9">
           <div className="w-full ">

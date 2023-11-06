@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import photo from '../asset/png/photo.jpg';
 import cross from '../asset/svg/cross.svg';
 import { motion } from 'framer-motion';
@@ -19,7 +18,7 @@ const ReadMe = ({ setIsReadMeVisible }) => {
     },
   };
   return (
-    <div className=" border-4  border-black bg-white h-4/6 absolute left-0 right-0 mx-auto  w-10/12 top-40">
+    <div className=" border-4 overflow-hidden border-black bg-white h-4/6 absolute left-0 right-0 mx-auto  w-10/12 top-40 ">
       <div className=" flex h-10 border-b-2  border-black">
         <div className="w-9">
           <div className="w-full ">
@@ -47,10 +46,10 @@ const ReadMe = ({ setIsReadMeVisible }) => {
         initial="hidden"
         animate={'visible'}
         variants={textAnimation}
-        className=" h-fit overflow-hidden  "
+        className=" h-fit   "
       >
         <div
-          className="p-6 h-full overflow-hidden "
+          className="p-6 h-full overflow-hidden  "
           style={{ overflowY: 'scroll ', maxHeight: '550px' }}
         >
           <img className="h-44 rounded-lg mx-auto " src={photo} alt="photo" />
