@@ -16,6 +16,7 @@
     "framer-motion": "^10.16.4",
     "lucide-react": "^0.288.0",
     "react": "^18.2.0",
+    "react-audio-player": "^0.17.0",
     "react-dom": "^18.2.0",
     "react-native-ionicons": "^4.6.5",
     "react-router-dom": "^6.17.0",
