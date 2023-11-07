@@ -9,7 +9,7 @@ class CVDownloadButton extends React.Component {
     const downloadLink = document.createElement('a');
     downloadLink.href = cvUrl;
     downloadLink.target = '_blank'; // Ouvrir dans un nouvel onglet
-    downloadLink.download = 'CV.Mr.Marie.jpg';
+    downloadLink.download = 'CV.Mr.Marie.pdf';
 
     downloadLink.click();
   };
